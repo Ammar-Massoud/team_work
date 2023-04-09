@@ -6,3 +6,11 @@ obj = {
         }
 }
 obj.printname()
+//SPEAK HELLO WORLD
+function speak(text) {
+  const synth = window.speechSynthesis;
+  const utterance = new SpeechSynthesisUtterance(text);
+  synth.speak(utterance);
+}
+
+speak("Hello WORLD");
