@@ -1,1 +1,1 @@
-console.log("Hello From the other side")
+console.log("Hello From the other side") // 20
