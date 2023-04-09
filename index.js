@@ -4,4 +4,3 @@ obj = {
                 console.log(this.name)
         }
 }
-obj.printname()
